@@ -1,0 +1,27 @@
+.tab-list {  
+    box-shadow: 0 1px var(--base-20); 
+    padding-left: 0;
+}
+  
+.tab-list-item {
+    display: inline-block;
+    list-style: none;
+    padding: 16px 16px 20px;
+    color: var(--base-50);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.tab-list-item:hover {
+    color: var(--base-70);
+}
+  
+.tab-list-active {
+    color: var(--accent-pink);
+    box-shadow: 0 2px var(--accent-pink);
+    transition: var(--transition);
+}
+
+.tab-list-active:hover {
+    color: var(--accent-pink);
+}
